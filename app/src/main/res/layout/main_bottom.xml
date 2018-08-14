@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_bottom"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- button purse -->
+
+    <LinearLayout
+        android:id="@+id/ll_button_purse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_3"
+        android:background="@color/color_bottom"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image_button_purse"
+                    android:layout_width="@dimen/size_24"
+                    android:layout_height="@dimen/size_22"
+                    android:src="@drawable/wallet_white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/size_6"/>
+                <TextView
+                    android:id="@+id/text_button_purse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wallet_text"
+                    android:textSize="@dimen/size_8s"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_white"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- button bonuses -->
+
+    <LinearLayout
+        android:id="@+id/ll_button_bonuses"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_3"
+        android:background="@color/color_bottom">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image_button_bonuses"
+                    android:layout_width="@dimen/size_22"
+                    android:layout_height="@dimen/size_24"
+                    android:src="@drawable/gift_grey"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/size_6"/>
+                <TextView
+                    android:id="@+id/text_button_bonuses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bonuses_text"
+                    android:textSize="@dimen/size_8s"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_grey"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- button history -->
+
+    <LinearLayout
+        android:id="@+id/ll_button_history"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_3"
+        android:background="@color/color_bottom">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image_button_history"
+                    android:layout_width="@dimen/size_24"
+                    android:layout_height="@dimen/size_24"
+                    android:src="@drawable/clock_grey"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/size_5"/>
+                <TextView
+                    android:id="@+id/text_button_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history_text"
+                    android:textSize="@dimen/size_8s"
+                    android:textAllCaps="true"
+                    android:textColor="@color/color_grey"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- button profile -->
+
+    <LinearLayout
+        android:id="@+id/ll_button_profile"
+        android:layout_width="@dimen/size_0"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_marginTop="@dimen/size_8"
+        android:layout_marginBottom="@dimen/size_3"
+        android:background="@color/color_bottom">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image_button_profile"
+                    android:layout_width="@dimen/size_24"
+                    android:layout_height="@dimen/size_24"
+                    android:src="@drawable/profile_grey"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/size_6"/>
+                <TextView
+                    android:id="@+id/text_button_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profike_text"
+                    android:textAllCaps="true"
+                    android:textSize="@dimen/size_8s"
+                    android:textColor="@color/color_grey"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

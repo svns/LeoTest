@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LeoTest</string>
+
+    <string name="wallet_text">Кошелек</string>
+    <string name="bonuses_text">Бонусы</string>
+    <string name="history_text">История</string>
+    <string name="profike_text">Профиль</string>
+
+    <string name="leowallet">LeoWallet</string>
+    <string name="currency_text">₴</string>
+
+    <string name="replenish_text">Пополнить</string>
+    <string name="withdraw_text">Вывести</string>
+    <string name="search_hint_text">Поиск услуг и получателей...</string>
+    <string name="search_isEmpty">Данные для поиска не введены</string>
+    <string name="toast_search">Где-то и для чего-то Вы ищите</string>
+
+    <string name="transfer_money_text">Перевести \n деньги</string>
+    <string name="pay_service_text">Оплатить \n услуги</string>
+    <string name="bill_text">Выставить \n счет</string>
+    <string name="toast_transfer_money_text">Перевести деньги</string>
+    <string name="toast_pay_service_text">Оплатить услуги</string>
+    <string name="toast_bill_text">Выставить счет</string>
+
+    <string name="toast_text">Нажата кнопка</string>
+    <string name="toast_item_text">Нажат контакт</string>
+
+    <string name="favorites_text">Избранное</string>
+    <string name="last_text">Последние</string>
+
+</resources>
